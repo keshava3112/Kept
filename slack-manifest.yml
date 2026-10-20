@@ -1,0 +1,39 @@
+# api.slack.com/apps → Create New App → From an app manifest → paste this.
+# Then: Basic Information → App-Level Tokens → generate one with connections:write (SLACK_APP_TOKEN)
+#       Install App → copy Bot User OAuth Token (SLACK_BOT_TOKEN)
+display_information:
+  name: Kept
+  description: Catches promises made in chat and makes sure they get kept.
+  background_color: "#1f2328"
+features:
+  app_home:
+    messages_tab_enabled: true
+    messages_tab_read_only_enabled: false
+  bot_user:
+    display_name: kept
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - app_mentions:read
+      - channels:history
+      - channels:read
+      - groups:history
+      - groups:read
+      - im:history
+      - im:write
+      - chat:write
+      - users:read
+      - users:read.email
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+      - message.channels
+      - message.groups
+      - message.im
+  interactivity:
+    is_enabled: false
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false

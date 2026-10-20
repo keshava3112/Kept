@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="960" height="560" rx="16" fill="#f6f5f1"/>
+
+  <!-- Main card: Monday brief in #ops -->
+  <g filter="url(#shadow)">
+    <rect x="28" y="28" width="560" height="504" rx="12" fill="#ffffff" stroke="#e3e1da"/>
+  </g>
+  <text x="52" y="62" font-size="13" fill="#6b6a65" font-weight="600"># ops</text>
+  <line x1="28" y1="78" x2="588" y2="78" stroke="#eeece6"/>
+  <rect x="52" y="96" width="36" height="36" rx="8" fill="#1f2328"/>
+  <text x="70" y="120" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">K</text>
+  <text x="100" y="110" font-size="15" fill="#1d1c1d" font-weight="700">kept</text>
+  <rect x="136" y="98" width="30" height="16" rx="3" fill="#ecebe6"/>
+  <text x="151" y="110" font-size="10" fill="#6b6a65" font-weight="700" text-anchor="middle">APP</text>
+  <text x="174" y="110" font-size="12" fill="#8a8984">Mon 9:00 AM</text>
+  <text x="100" y="132" font-size="15" fill="#1d1c1d" font-weight="700">Weekly brief</text>
+
+  <text x="100" y="166" font-size="13" fill="#c0392b" font-weight="700">OVERDUE · 3</text>
+  <text x="100" y="190" font-size="14" fill="#1d1c1d">Send the revised SOW to Meera</text>
+  <text x="100" y="208" font-size="12" fill="#6b6a65">Sana · due Fri · ticket KEL-1 (in progress)</text>
+  <rect x="100" y="216" width="3" height="18" fill="#d8d6cf"/>
+  <text x="110" y="229" font-size="12" fill="#55544f" font-style="italic">“I'll send the revised SOW to Meera by Friday” · #kelso</text>
+
+  <text x="100" y="258" font-size="14" fill="#1d1c1d">Share homepage wireframes with Juniper</text>
+  <text x="100" y="276" font-size="12" fill="#6b6a65">Priya · due Thu · ticket JUN-4</text>
+  <text x="100" y="302" font-size="14" fill="#1d1c1d">Chase the July invoice</text>
+  <text x="100" y="320" font-size="12" fill="#6b6a65">Arjun · due Wed · no ticket — nobody would have noticed</text>
+
+  <text x="100" y="356" font-size="13" fill="#b9770e" font-weight="700">DUE THIS WEEK · 1</text>
+  <text x="100" y="380" font-size="14" fill="#1d1c1d">Send the final deck to Kelso</text>
+  <text x="100" y="398" font-size="12" fill="#6b6a65">Sana · due Wed 21 Oct</text>
+
+  <text x="100" y="434" font-size="13" fill="#1e8449" font-weight="700">PROMISE-KEEPING · 30 DAYS</text>
+  <text x="100" y="458" font-size="13" fill="#1d1c1d">Arjun</text>
+  <rect x="160" y="448" width="180" height="10" rx="5" fill="#e6f4ea"/>
+  <rect x="160" y="448" width="180" height="10" rx="5" fill="#2e9e5b"/>
+  <text x="352" y="458" font-size="12" fill="#6b6a65">1 / 1 on time</text>
+  <text x="100" y="496" font-size="12" fill="#8a8984">Every promise carries the exact words it came from.</text>
+
+  <!-- Right: DM nudge -->
+  <g filter="url(#shadow)">
+    <rect x="612" y="28" width="320" height="236" rx="12" fill="#ffffff" stroke="#e3e1da"/>
+  </g>
+  <text x="636" y="62" font-size="13" fill="#6b6a65" font-weight="600">Direct message</text>
+  <line x1="612" y1="78" x2="932" y2="78" stroke="#eeece6"/>
+  <text x="636" y="106" font-size="14" fill="#1d1c1d" font-weight="700">kept</text>
+  <text x="636" y="132" font-size="13" fill="#1d1c1d">⏰ Overdue: you said</text>
+  <text x="636" y="152" font-size="13" fill="#55544f" font-style="italic">“I'll chase the July invoice with</text>
+  <text x="636" y="170" font-size="13" fill="#55544f" font-style="italic">their finance team tomorrow”</text>
+  <text x="636" y="190" font-size="13" fill="#1d1c1d">in #kelso. Due Wed 6:00 PM.</text>
+  <rect x="636" y="206" width="62" height="24" rx="5" fill="#f1f0eb"/>
+  <text x="667" y="222" font-size="12" fill="#1d1c1d" font-family="ui-monospace, Menlo, monospace" text-anchor="middle">done 3</text>
+  <rect x="706" y="206" width="110" height="24" rx="5" fill="#f1f0eb"/>
+  <text x="761" y="222" font-size="12" fill="#1d1c1d" font-family="ui-monospace, Menlo, monospace" text-anchor="middle">push 3 to fri</text>
+  <rect x="824" y="206" width="60" height="24" rx="5" fill="#f1f0eb"/>
+  <text x="854" y="222" font-size="12" fill="#1d1c1d" font-family="ui-monospace, Menlo, monospace" text-anchor="middle">drop 3</text>
+
+  <!-- Right: the source -->
+  <g filter="url(#shadow)">
+    <rect x="612" y="288" width="320" height="244" rx="12" fill="#ffffff" stroke="#e3e1da"/>
+  </g>
+  <text x="636" y="322" font-size="13" fill="#6b6a65" font-weight="600"># kelso · last Tuesday</text>
+  <line x1="612" y1="338" x2="932" y2="338" stroke="#eeece6"/>
+  <text x="636" y="366" font-size="14" fill="#1d1c1d" font-weight="700">Arjun Mehta</text>
+  <text x="636" y="390" font-size="13" fill="#1d1c1d">On it —</text>
+  <rect x="686" y="376" width="190" height="20" rx="4" fill="#fff4cc"/>
+  <text x="690" y="390" font-size="13" fill="#1d1c1d">I'll chase the July invoice with</text>
+  <rect x="632" y="398" width="184" height="20" rx="4" fill="#fff4cc"/>
+  <text x="636" y="412" font-size="13" fill="#1d1c1d">their finance team tomorrow.</text>
+  <text x="636" y="452" font-size="12" fill="#6b6a65">↳ caught as a promise: owner Arjun,</text>
+  <text x="636" y="470" font-size="12" fill="#6b6a65">  due Wed 6 PM, no matching ticket.</text>
+  <text x="636" y="500" font-size="12" fill="#8a8984">Nobody filed anything.</text>
+</svg>

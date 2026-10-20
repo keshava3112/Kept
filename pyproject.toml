@@ -1,0 +1,39 @@
+[project]
+name = "kept"
+version = "0.1.0"
+description = "Every promise your team makes, kept. A Slack bot that catches commitments in chat, links them to tickets, and nudges before they slip."
+readme = "README.md"
+license = {text = "MIT"}
+keywords = ["slack-bot", "project-management", "llm", "ai-agent", "context-graph", "mcp", "linear", "commitments"]
+requires-python = ">=3.11"
+dependencies = [
+  "sqlalchemy>=2.0",
+  "anthropic>=0.40",
+  "slack_bolt>=1.18",
+  "apscheduler>=3.10,<4",
+  "httpx>=0.27",
+  "rapidfuzz>=3.0",
+  "python-dotenv>=1.0",
+  "mcp>=2.0",
+]
+
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.1"]
+dev = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://github.com/keshava3112/kept"
+Issues = "https://github.com/keshava3112/kept/issues"
+
+[project.scripts]
+kept = "kept.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["kept*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
