@@ -13,7 +13,7 @@ links each one to the ticket that fulfils it, and nudges the owner before it sli
 ![Postgres or SQLite](https://img.shields.io/badge/db-SQLite%20%7C%20Postgres-336791)
 ![MCP](https://img.shields.io/badge/MCP-server-black)
 
-<img src="docs/assets/hero.svg" alt="Kept posting a weekly brief of overdue promises in Slack, and nudging an owner by DM" width="860">
+<img src="docs/assets/demo.gif" alt="Animation: a promise made in Slack is caught by Kept, linked to a Linear ticket, goes overdue, triggers a nudge, and is marked kept after one reply" width="860">
 
 </div>
 
@@ -30,6 +30,13 @@ follows the ticket to done. When nothing exists, Kept still tracks the promise
 and nudges the owner before it's due. Every Monday it posts who kept their word.
 
 No new app to learn and nothing to file. You keep talking the way you already do.
+
+### What your team sees
+
+Every Monday, a brief in the channel of your choice. During the week, a DM
+to whoever owes something, before it's late rather than after.
+
+<p align="center"><img src="docs/assets/hero.svg" alt="Kept posting a weekly brief of overdue promises in Slack, and nudging an owner by DM" width="820"></p>
 
 ## Try it in 30 seconds
 
@@ -163,6 +170,7 @@ kept/
   desk.py         graph-walk retrieval and grounded answers
   mcp_server.py   the graph over MCP
   ingest/         Slack (Socket Mode) and Linear (GraphQL)
+scripts/          make_demo_gif.py renders the README animation
 tests/            rules, state machine, linking, replay, Linear sync, MCP
 ```
 
